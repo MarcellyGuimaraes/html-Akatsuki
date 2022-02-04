@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="membros.css">
+    <title>Contatos - akatsuki</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <img src="./img/logo.png" alt="">
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="membros.html">Membros</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nomesobrenome"> nome e sobrenome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao">
+
+            <label for="email">Email</label>
+            <input type="text" id="email" class="input-padrao">
+
+            <label for="telefone">Telefone</label>
+            <input type="text" id="telefone" class="input-padrao">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="33" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+            <div>
+                <p>Como prefere ter o nosso contato?</p>
+                <label for="radio-email">
+                    <input type="radio" name="contato" value="email" id="radio-email">
+                    Email</label>
+
+                <label for="radio-telefone">
+                    <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                    Telefone</label>
+
+                <label for="radio-instagram">
+                    <input type="radio" name="contato" value="instagram" id="radio-instagram">
+                    Instagram</label>
+            </div>
+
+            <label class="checkbox">
+                <input type="checkbox"> Quer receber nossas novidades ou recados de personagens 
+            por email?</label>
+
+            <input type="submit" value="Enviar formulário">
+        </form>
+    </main>
+
+    <footer>
+        <img src="img/logo.png" id="zetsu">
+        <p class="copyright">&copy;Copyright Naruto Fandom - 2022</p>
+    </footer>
+</body>
+
+</html>
