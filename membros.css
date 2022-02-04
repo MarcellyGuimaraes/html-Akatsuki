@@ -1,0 +1,70 @@
+header {
+    background: #630000;
+    padding: 20px 0;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.membro {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.membros {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.membros li {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    margin: 1.5%; 
+    padding: 20px 10px;
+    box-sizing: border-box;
+    /* border-color: #000000;
+    border-width: 2px;
+    border-style: solid; */
+}
+
+.membros h2 {
+    font-size:30px;
+    font-weight: bold;
+    padding-bottom: 9px;
+}
+
+.membros-jutsu {
+    font-size: 18px;
+}
+
+.membros-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
