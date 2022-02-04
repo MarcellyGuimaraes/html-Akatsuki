@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 *{
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 body {
@@ -36,7 +38,8 @@ ul {
 }
 
 a {
-    color: aliceblue;
+    color: #f1533e;
+    text-decoration: none;
 }
 
 #Akatsuki {
