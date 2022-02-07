@@ -12,7 +12,7 @@
     <header>
         <div class="container">
             <h1>
-                <img src="./img/logo.png" alt="">
+                <img src="./img/logo.png" alt="nuvem da akatsuki">
             </h1>
 
             <nav>
@@ -29,19 +29,19 @@
     <main>
         <form>
             <label for="nomesobrenome"> nome e sobrenome</label>
-            <input type="text" id="nomesobrenome" class="input-padrao">
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
             <label for="email">Email</label>
-            <input type="text" id="email" class="input-padrao">
+            <input type="email" id="email" class="input-padrao" required placeholder="foquinha@parda123">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx ">
 
             <label for="mensagem">Mensagem</label>
-            <textarea cols="33" rows="10" id="mensagem" class="input-padrao"></textarea>
+            <textarea cols="33" rows="10" id="mensagem" class="input-padrao" required></textarea>
 
-            <div>
-                <p>Como prefere ter o nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere ter o nosso contato?</legend>
                 <label for="radio-email">
                     <input type="radio" name="contato" value="email" id="radio-email">
                     Email</label>
@@ -51,20 +51,52 @@
                     Telefone</label>
 
                 <label for="radio-instagram">
-                    <input type="radio" name="contato" value="instagram" id="radio-instagram">
+                    <input type="radio" chacked name="contato" value="instagram" id="radio-instagram">
                     Instagram</label>
-            </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horario prefere ser atendido?</legend>
+                <select>
+                    <option>Manha</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
 
             <label class="checkbox">
-                <input type="checkbox"> Quer receber nossas novidades ou recados de personagens 
-            por email?</label>
+                <input type="checkbox" checked> Quer receber nossas novidades ou recados de personagens
+                por email?</label>
 
-            <input type="submit" value="Enviar formulário">
+            <input class="enviar" type="submit" value="Enviar formulário">
         </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>segunda</td>
+                    <td>19:30 -- 21:20</td>
+                </tr>
+                <tr>
+                    <td>quarta</td>
+                    <td>19:30 -- 21:20</td>
+                </tr>
+                <tr>
+                    <td>sabado</td>
+                    <td>15:30 -- 21:20</td>
+                </tr>
+            </tbody>
+        </table>
     </main>
 
     <footer>
-        <img src="img/logo.png" id="zetsu">
+        <img src="img/logo.png" id="zetsu" alt="nuvem da akatsuki">
         <p class="copyright">&copy;Copyright Naruto Fandom - 2022</p>
     </footer>
 </body>
