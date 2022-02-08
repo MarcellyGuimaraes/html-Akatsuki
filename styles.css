@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2, h3, h4, h5, h6, header, footer, form{
+    font-family: 'Permanent Marker', cursive;
+}
+
+/* Header */
+
 header {
     background: #630000;
     padding: 20px 0;
@@ -32,6 +45,24 @@ nav a:hover{
     color: #ff1024;
     font-size: 23px;
 }
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background: #000000f3;
+    padding: 40px 0;
+}
+
+.copyright {
+    color:#ffffff;
+    font-size: 20px;
+    margin: 13px 0 0;
+    padding: 20px;
+
+}
+
+/* membros.html */
 
 .membro {
     width: 250px;
@@ -85,21 +116,9 @@ nav a:hover{
     font-size: 18px;
     font-weight: bold;
     margin-top: 10px;
-} 
-
-footer {
-    text-align: center;
-    background: #000000f3;
-    padding: 40px 0;
 }
 
-.copyright {
-    color:#ffffff;
-    font-size: 20px;
-    margin: 13px 0 0;
-    padding: 20px;
-
-}
+/* contatos.html */
 
 main {
     width: 940px;
@@ -161,3 +180,39 @@ form label, form legend {
         border: 1px solid #000000;
         padding: 8px 15px;
     }
+
+/* index.html */
+
+
+.akatsuki {
+    width: 100%;
+}
+
+.principal-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    clear: left;
+}
+
+.principal p {
+    margin-bottom: 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imagembeneficios {
+    width: 60%;
+}
+
+.manto {
+    width: 150px;
+    float: left;
+    margin: 0 20px 20px 0;
+}

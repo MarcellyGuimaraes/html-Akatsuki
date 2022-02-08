@@ -1,22 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+
+h1, h2, h3, h4, h5, h6, header, footer, form{
+    font-family: 'Permanent Marker', cursive;
+}
 
 body {
     background-color: #630000;
     color: #fff;
-    margin: 20px;
-    font-family: 'Permanent Marker', cursive;
-
+    margin: 0px;
 }
 
-a {
-    color: #fff;
+header {
+    padding: 20px 0;
+}
+
+.container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 22px;
     text-decoration: none;
+}
+
+nav a:hover{
+    color: #ff1024;
+    font-size: 23px;
 }
 
 h1 {
     text-align: center;
 }
 
-img {
+
+footer {
+    text-align: center;
+    background: #000000f3;
+    padding: 40px 0;
+}
+
+.copyright {
+    color:#ffffff;
+    font-size: 20px;
+    margin: 13px 0 0;
+    padding: 20px;
+
+}
+
+p {
+    margin: 20px;
+}
+
+.img {
     width: 100%;
 }

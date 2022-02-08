@@ -2,58 +2,86 @@
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Akatsuki</title>
 </head> 
 
 <body>
     <header>
-        <h1 class="titulo">Akatsuki</h1>
+        <div class="container">
+            <h1>
+                <img src="./img/logo.png" alt="">
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="membros.html">Membros</a></li>
+                    <li><a href="historia.html">História</a></li>  
+                    <li><a href="contato.html">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <img id="Akatsuki" src="./img/membros-da-akatsuki.jpg"/>
-        <div>
-            <h2 class="titulo-centro">Akatsuki</h2>
+
+    <img class="akatsuki" src="./img/membros-da-akatsuki.jpg"/>
+    <main>
+
+        <section class="principal">
+            <h2 class="principal-title">Akatsuki</h2>
+
+            <img class="manto" src="img/manto.jpeg" alt="Manto da akatsuki" />
 
             <p>
-                <strong>Akatsuki(暁; Literalmente significa "Amanhecer")</strong> foi inicialmente uma organização criada por <strong> Yahiko e
-                seus dois companheiros Konan e Nagato</strong>, em um esforço para lutar contra a tirania e a opressão que
-                sua aldeia natal, <em>Amegakure</em>, estava enfrentando durante a Terceira Guerra Mundial Shinobi, além da
-                ambição de conquistar a paz mundial.
+                <strong>Akatsuki</strong> é a organização de mercenários e vilões de <strong>Naruto</strong>. 
+                Mesmo que tenham sido os principais antagonistas do anime, 
+                é quase impossível ter acompanhado as aventuras dos shinobis 
+                de <strong>Konoha</strong> e não ter se apaixonado ou, no mínimo, simpatizado com a Akatsuki. 
+                Afinal, a organização é absolutamente cativante seja em design, 
+                carisma ou história.
+            </p>
+
+            <p id="org">
+                Quanto aos <strong>objetivos</strong> da Akatsuki, 
+                depende muito da versão que estamos falando do grupo. 
+                Em comum, dá para dizer que todas as versões do grupo mostradas em Naruto 
+                traziam como ideal <strong>alcançar algum conceito de paz mundial</strong> – 
+                de forma distorcida ou não.
             </p>
         
             <p> 
-                <strong>Após a morte de Yahiko e sob a influência de Obito Uchiha</strong>, a Akatsuki tornou-se uma organização
-                criminosa formada por <em><strong>Nukenin de Rank S</strong></em> e é o grupo mais procurado em todo o mundo
-                shinobi. Seu principal objetivo é recolher todos os Bijū para o seu plano de dominação mundial. Como tal, a
-                Akatsuki, apesar de ter inicialmente um papel menor durante a Parte I, tornou-se a principal força antagônica na
-                Parte II.
+                Quando conhecemos a <strong>Akatsuki</strong>, o grupo é formado por shinobis renegados 
+                que trabalham como mercenários em missões secretas para alguns países ninja. 
+                Além disso, eles possuíam um objetivo próprio, que é revelado mais adiante, 
+                de  <em><strong>capturar todos os Jinchuuriki</strong></em> para extrair deles as Bestas de Cauda.
             </p>
-        
-            <p id="org">
-                A organização é generalizada, abrangendo vários países, tendo agentes em vários lugares. Quando uma equipe
-                encontra um <em>Bijū</em> e tem que começar o trabalho de selar a besta, eles têm esconderijos escondidos com muitas
-                armadilhas prontas, para protegê-los enquanto realizam sua longa técnica de três dias.
-            </p>
-        </div>
+    
+        </section>
 
-    <div class="renegados">
-        <h3 class="titulo-centro"><a href="membros.html">Membros</a></h3> 
-            <ul>
-                <li class="membros">Hidan</li>
-                <li class="membros">Itachi</li>
-                <li class="membros">Pain</li>
-                <li class="membros">Zetzu</li>
-                <li class="membros">Konan</li>
-                <li class="membros">Deidara</li>
-                <li class="membros">Orochimaru</li>
-                <li class="membros">Kakuzu</li>
-                <li class="membros">Kisame</li>
-                <li class="membros">Sasori</li>
-                <li class="membros">Obito</li>
-            </ul>
-            
-            <img id="akatsuki" src="./img/akatsuki.png"/>
+        <section class="renegados">
+            <h3 class="principal-title">Membros</h3> 
+                <ul>
+                    <li class="itens">Hidan</li>
+                    <li class="itens">Itachi</li>
+                    <li class="itens">Pain</li>
+                    <li class="itens">Zetzu</li>
+                    <li class="itens">Konan</li>
+                    <li class="itens">Deidara</li>
+                    <li class="itens">Orochimaru</li>
+                    <li class="itens">Kakuzu</li>
+                    <li class="itens">Kisame</li>
+                    <li class="itens">Sasori</li>
+                    <li class="itens">Obito</li>
+                </ul>
+                
+                <img id="akatsuki" src="./img/akatsuki.png"/>
+        </section>
+    </main>
 
-    </div>
+    <footer>
+        <img src="img/logo.png" id="zetsu" alt="nuvem da akatsuki">
+        <p class="copyright">&copy;Copyright Naruto Fandom - 2022</p>
+    </footer>
 </body>
 </html>
