@@ -3,6 +3,7 @@
 
 *{
     font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
 }
 
 h1, h2, h3, h4, h5, h6, header, footer, form{
@@ -50,7 +51,8 @@ nav a:hover{
 
 footer {
     text-align: center;
-    background: #000000f3;
+    border-top: 2px solid #612121;
+    background: linear-gradient(#5a1b1b, #000000);
     padding: 40px 0;
 }
 
@@ -120,11 +122,6 @@ footer {
 
 /* contatos.html */
 
-main {
-    width: 940px;
-    margin: 0 auto;
-}
-
 form {
     margin: 40px 0;
 }
@@ -183,7 +180,6 @@ form label, form legend {
 
 /* index.html */
 
-
 .akatsuki {
     width: 100%;
 }
@@ -207,12 +203,76 @@ form label, form legend {
     font-style: italic;
 }
 
-.imagembeneficios {
+.principal {
+    padding: 3em 0;
+    background:#FEFEFE;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.conteudo-renegados{
+    width: 640px;
+    margin: 0 auto;
+}
+
+.imagem-renegados {
     width: 60%;
+    opacity: 0.9;
+    transition: 400ms;
+    box-shadow: 3px 3px 20px #000000e7;
+}
+
+.imagem-renegados:hover {
+    opacity: 0.3;
+}
+
+.lista-renegados {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.renegados {
+    padding: 3em 0;
+    background: #5a1b1b;
+    color: white;
 }
 
 .manto {
     width: 150px;
     float: left;
     margin: 0 20px 20px 0;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE, #5a1b1b);
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.video {
+    width: 560px;
+    margin: 2em auto;
+}
+
+.itens {
+    font-size: 2vh;
+    line-height: 1.5;
+}
+
+.itens:before {
+    content: "⧽ ";
+}
+
+.itens:first-child {
+    font-weight:bold ;
 }
