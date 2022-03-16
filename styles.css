@@ -53,7 +53,7 @@ footer {
     text-align: center;
     border-top: 2px solid #612121;
     background: linear-gradient(#5a1b1b, #000000);
-    padding: 40px 0;
+    padding:25px 0;
 }
 
 .copyright {
@@ -76,7 +76,7 @@ footer {
     position: relative;
     width: 940px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 40px;
 }
 
 .membros li {
@@ -84,7 +84,7 @@ footer {
     text-align: center;
     vertical-align: top;
     margin: 1.5%; 
-    padding: 20px 10px;
+    padding: 20px 5px;
     box-sizing: border-box;
     border: 2px solid #000000;
     border-radius: 10px 40px 10px 40px;
@@ -275,4 +275,22 @@ form label, form legend {
 
 .itens:first-child {
     font-weight:bold ;
+}
+
+@media screen and (max-width:480px) {
+    .container, .principal, .conteudo-renegados, .mapa-conteudo, .video{
+        margin: 10px;
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+    nav {
+        position: static;
+    }
+    
+    .lista-renegados, .imagem-renegados {
+        width: 100%;
+    }
+
 }
