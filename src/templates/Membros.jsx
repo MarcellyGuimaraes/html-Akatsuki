@@ -3,7 +3,7 @@ import { membros } from '../assets/data'
 
 const Membros = () => {
   return (
-    <main className="font-mono flex flex-col items-center bg-slate-200 text-slate-800">
+    <main className="font-mono flex flex-col items-center bg-red-900 text-white">
       <h1 className="text-3xl font-bold mt-10">Membros</h1>
       <ul className="grid grid-cols-1 w-4/5 md:grid-cols-3 place-items-center">
         {membros.map((membro) => (

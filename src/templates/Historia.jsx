@@ -3,7 +3,7 @@ import akatsuki from '../assets/img/akatsuki.png'
 
 const Historia = () => {
   return (
-    <div className="bg-red-400 font-mono flex flex-col items-center">
+    <div className="bg-red-900 text-white font-mono flex flex-col items-center">
       <h1 className="text-center py-8 text-2xl font-bold">
         {' '}
         A HISTORIA DA AKATSUKI
