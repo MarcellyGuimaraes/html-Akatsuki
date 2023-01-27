@@ -2,9 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-      <img src="img/logo.png" id="zetsu" alt="nuvem da akatsuki" />
-      <p class="copyright">&copy;Copyright Naruto Fandom - 2022</p>
+    <footer className="text-center">
+      <h1>
+        <div className="">Logo</div>
+      </h1>
+      <p className="text-white m-12 p-20">
+        &copy;Copyright Naruto Fandom - 2022
+      </p>
     </footer>
   )
 }

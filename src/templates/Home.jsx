@@ -6,7 +6,7 @@ import Membros from '../components/Membros'
 
 const Home = () => {
   return (
-    <main>
+    <main className="font-mono">
       <Main />
       <Map />
       <Membros />
