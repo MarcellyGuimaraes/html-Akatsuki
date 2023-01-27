@@ -6,14 +6,11 @@ import Membros from '../components/Membros'
 
 const Home = () => {
   return (
-    <div>
-      <Header />
-      <main>
-        <Main />
-        <Map />
-        <Membros />
-      </main>
-    </div>
+    <main>
+      <Main />
+      <Map />
+      <Membros />
+    </main>
   )
 }
 
