@@ -1,12 +1,11 @@
 import React from 'react'
-import Header from '../components/Header'
 import Main from '../components/Main'
 import Map from '../components/Map'
 import Membros from '../components/Membros'
 
 const Home = () => {
   return (
-    <main className="font-mono">
+    <main className="font-mono bg-red-900 text-white">
       <Main />
       <Map />
       <Membros />
