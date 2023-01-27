@@ -4,7 +4,7 @@ import Akatsuki from '../assets/img/membros-da-akatsuki.jpg'
 const Main = () => {
   return (
     <section className="flex w-screen flex-col items-center">
-      <img src={Akatsuki} className="w-screen" alt="Membros da akatsuki" />
+      <img src={Akatsuki} className="w-11/12 mt-7" alt="Membros da akatsuki" />
       <h2 className="my-5 text-3xl font-bold">Akatsuki</h2>
 
       <div className="w-3/5">

@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <header className="bg-red-900 py-4 text-white font-bold font-mono shadow-2xl shadow-neutral-900">
       <div className="flex flex-col items-center justify-between px-28 md:flex-row">
-        <h1 className="text-2xl">Logo</h1>
+        <h1 className="text-2xl">
+          <Link to="/">Akatsuki</Link>
+        </h1>
 
         <nav className="w-56">
           <ul className="flex justify-between">
