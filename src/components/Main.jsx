@@ -1,9 +1,11 @@
 import React from 'react'
+import Akatsuki from '../assets/img/membros-da-akatsuki.jpg'
 
 const Main = () => {
   return (
     <section className="flex w-screen flex-col items-center">
-      <h2 className="my-5 text-3xl">Akatsuki</h2>
+      <img src={Akatsuki} className="w-screen" alt="Membros da akatsuki" />
+      <h2 className="my-5 text-3xl font-bold">Akatsuki</h2>
 
       <div className="w-3/5">
         <p>
