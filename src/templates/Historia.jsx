@@ -48,7 +48,7 @@ const Historia = () => {
           com muitas armadilhas prontas, para protegê-los enquanto realizam sua
           longa técnica de três dias.
         </p>
-        <img class="my-10 w-2/5" src={akatsuki} />
+        <img className="my-10 w-2/5" src={akatsuki} />
 
         <p className="mb-6">
           A Akatsuki foi fundada originalmente por Yahiko durante a Terceira
